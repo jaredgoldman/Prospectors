@@ -15,7 +15,7 @@ export default function HomePage() {
 
   return (
     <main className={styles.root}>
-      <Divider text={'COMING SOON'} symbol=' - ' />
+      <Divider text={'WEN GOLD'} symbol=' - ' />
       <Hero
         leftHeading='PROSPECTORS'
         leftImage={{ src: prospectorsGif, style: 'normal' }}
