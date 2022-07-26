@@ -1,0 +1,18 @@
+@import '../../css/typography.css';
+
+:root {
+  --background: #f2e1b7;
+  --banners: #dac14e;
+  --banner-text: #ffff9c;
+  --title-text: #78afdb;
+  --paragraph-text: #ab9865;
+}
+
+.root {
+  background-color: var(--background);
+  min-height: 100vh;
+}
+
+body {
+  font-family: bigjohnpro;
+}

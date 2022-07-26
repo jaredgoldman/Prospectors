@@ -1,0 +1,20 @@
+.root {
+  padding: 10% 20%;
+  color: white;
+  font-family: bigjohnpro;
+}
+
+.link {
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  color: var(--banner-text);
+
+  a:visited {
+    color: white;
+  }
+}
+
+.list {
+  list-style-type: lower-roman;
+}
