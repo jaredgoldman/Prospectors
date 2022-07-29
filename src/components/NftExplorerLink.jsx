@@ -6,7 +6,7 @@ export default function NftExplorerLink({ heading, link }) {
   return (
     <div className={styles.root}>
       {heading && <h3 className={styles.heading}>{heading}</h3>}
-      <a href={link} target='_blank' className={styles.link}>
+      <a href={link} target='_blank' rel='noreferrer' className={styles.link}>
         <StaticImage
           src='../images/nftx.png'
           alt={`nft explorer link for ${heading}`}

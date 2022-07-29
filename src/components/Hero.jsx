@@ -11,7 +11,7 @@ export default function Hero({
   priceSubtitle,
   style,
 }) {
-  const rootStyle = [styles.root, styles[style]].join(' ');
+  const rootStyle = [styles?.root, styles[style]].join(' ');
   const imageContainerStyle = [
     styles.imageContainer,
     styles[leftImage.style],
@@ -31,7 +31,7 @@ export default function Hero({
           </div>
           {leftImage && (
             <div className={imageContainerStyle}>
-              <img src={leftImage.src} />
+              <img src={leftImage.src} alt='propsetors gif' />
             </div>
           )}
         </div>

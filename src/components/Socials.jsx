@@ -10,6 +10,7 @@ export default function Socials() {
           href='https://twitter.com/AlgoProspectors'
           target='_blank'
           className={styles.link}
+          rel='noreferrer'
         >
           <StaticImage
             src='../images/twitter.png'
@@ -23,6 +24,7 @@ export default function Socials() {
           href='https://www.nftexplorer.app/collection/aFGjeB3XUAQt'
           target='_blank'
           className={styles.link}
+          rel='noreferrer'
         >
           <StaticImage
             src='../images/nft-explorer.png'
@@ -36,6 +38,7 @@ export default function Socials() {
           href='https://discord.gg/s6P4XbrEB4'
           target='_blank'
           className={styles.link}
+          rel='noreferrer'
         >
           <StaticImage
             src='../images/discord.png'
@@ -49,6 +52,7 @@ export default function Socials() {
           href='https://randycones.xyz'
           target='_blank'
           className={styles.link}
+          rel='noreferrer'
         >
           <StaticImage
             src='../images/randy-cones.png'
@@ -58,7 +62,13 @@ export default function Socials() {
             width={150}
           />
         </a>
-        <a href='https://loridell.com' target='_blank' className={styles.link}>
+        <a
+          href='https://loridell.com'
+          target='_blank'
+          rel='noreferrer'
+          className={styles.link}
+        >
+          rel="noreferrer"
           <StaticImage
             src='../images/ldell.png'
             alt='lori dell personal website'

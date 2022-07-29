@@ -72,10 +72,6 @@
   bottom: 2.5rem;
 }
 
-.priceSubtitle {
-  color: var(--paragraph-text);
-}
-
 .price {
   font-size: 3rem;
   margin: 0.45rem 0;
@@ -86,6 +82,12 @@
   text-align: center;
   padding: 0.75rem 0;
   white-space: nowrap;
+  color: var(--paragraph-text);
+  cursor: default;
+
+  &:hover {
+    color: #ece7df;
+  }
 }
 
 @media screen and (max-width: 992px) {
