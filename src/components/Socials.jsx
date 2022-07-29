@@ -68,7 +68,6 @@ export default function Socials() {
           rel='noreferrer'
           className={styles.link}
         >
-          rel="noreferrer"
           <StaticImage
             src='../images/ldell.png'
             alt='lori dell personal website'
