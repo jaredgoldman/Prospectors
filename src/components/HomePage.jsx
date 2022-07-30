@@ -20,7 +20,7 @@ export default function HomePage() {
         leftHeading='PROSPECTORS'
         leftImage={{ src: prospectorsGif, style: 'normal' }}
         rightContent={firstHeroContent}
-        priceSubtitle='33A'
+        priceSubtitle='MINT HERE - 33A'
       />
       <Divider text={'GOLD RUSH'} symbol={' - '} />
       <section className={styles.heroLower}>

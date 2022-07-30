@@ -39,7 +39,13 @@ export default function Hero({
           {rightContent}
           {price && <p className={styles.price}>{price}</p>}
           {priceSubtitle && (
-            <p className={styles.priceSubtitle}>{priceSubtitle}</p>
+            <a
+              className={styles.priceSubtitle}
+              alt='link to mint here'
+              href='https://algoxnft.com/shuffle/818'
+            >
+              {priceSubtitle}
+            </a>
           )}
         </div>
       </section>
